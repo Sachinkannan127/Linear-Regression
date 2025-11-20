@@ -1,0 +1,75 @@
+1. Load and Understand the Dataset 
+● Import the dataset using pandas 
+● Display: 
+○ first 5 rows 
+○ dataset shape 
+○ data types 
+○ missing values summary 
+
+
+2. Exploratory Data Analysis (EDA) 
+Perform at least five EDA steps such as: 
+● Histogram of the target variable 
+● Scatter plots (feature vs target) 
+● Correlation heatmap for numerical features 
+● Boxplot for target variable grouped by a categorical feature 
+● Visual outlier detection using boxplots 
+(Use matplotlib or seaborn ) 
+
+
+3.Data Preprocessing 
+● Handle missing values (drop or fill) 
+● Select 3–6 meaningful features for the model 
+● Convert categorical columns to numeric (if required → simple label encoding or 
+replacing categories with integers) 
+● Scale numerical features (StandardScaler) 
+● Split data into train & test (80–20) 
+
+
+4. Build Two Regression Models 
+You must implement: 
+Model A — Simple Linear Regression 
+● Use only 1 feature  
+Model B — Multiple Linear Regression 
+● Use multiple features (3–6 features) 
+
+
+5
+ . Train the Models 
+Use scikit-learn: 
+from sklearn.linear_model import LinearRegression 
+Fit both Model A and Model B. 
+
+
+6. Evaluate the Models 
+Calculate the following for both models: 
+● MAE 
+● MSE 
+● RMSE 
+● R² Score 
+Compare Model A vs Model B performance. 
+
+
+
+7. Interpretation 
+Write short explanations: 
+● Which features are most influential? 
+● Are coefficients positive or negative? 
+● Does the model behavior make sense in a real context? 
+
+
+8. Required Visualizations (At Least 4) 
+You must include at least four of the following: 
+● Histogram of target 
+● Scatter plot + regression line for simple regression 
+● Correlation heatmap 
+● Actual vs predicted plot (multiple regression model) 
+● Optional: Residual scatter plot 
+
+
+9. Final Summary (150–250 words) 
+Write a summary including: 
+● Key insights from EDA 
+● Best performing model 
+● Comparison of simple vs multiple regression 
+● Limitations (noise, outliers, missing features, etc.)
